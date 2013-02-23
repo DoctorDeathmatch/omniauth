@@ -28,12 +28,6 @@ module OmniAuth
 	  }
 	end
 
-	def user_hash
-	  @user_hash ||= MultiJson.decode(@access_token.post("http://api.rdio.com/1/", {
-	    :method => 'currentUser',
-	    :extras => 'username'
-	  }).body)['result']
-	end
 
 	def auth_hash
 	  OmniAuth::Utils.deep_merge(super, {
@@ -61,6 +55,6 @@ module OmniAuth
 	end
 
   end
-  autoload :Shoplo, 'omniauth/strategies/shoplo'
+  
   end
 end
