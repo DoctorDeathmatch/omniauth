@@ -7,6 +7,7 @@ module OmniAuth
 
   module Strategies
     autoload :Developer, 'omniauth/strategies/developer'
+    autoload :Shoplo, 'omniauth/strategies/shoplo'
   end
 
   autoload :Builder,  'omniauth/builder'
