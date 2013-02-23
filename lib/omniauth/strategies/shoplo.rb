@@ -1,5 +1,5 @@
 # oa-oauth/lib/omniauth/strategies/shoplo.rb
-require 'omniauth/oauth'
+require 'omniauth/omniauth'
 require 'multi_json'
 
 module OmniAuth
