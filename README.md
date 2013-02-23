@@ -1,3 +1,6 @@
+# README.markdown
+* Shoplo (via [doctordeathmatch](http://github.com/doctordeathmatch))
+
 # OmniAuth: Standardized Multi-Provider Authentication
 [![Gem Version](https://badge.fury.io/rb/omniauth.png)][gem]
 [![CI Build Status](https://secure.travis-ci.org/intridea/omniauth.png?branch=master)][travis]
